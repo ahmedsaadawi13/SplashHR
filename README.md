@@ -65,7 +65,7 @@ A complete, production-ready HR and Payroll management system built with pure PH
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/SplashHR.git
+git clone https://github.com/ahmedsaadawi13/SplashHR.git
 cd SplashHR
 ```
 
@@ -551,8 +551,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For issues, questions, or suggestions:
-- **GitHub Issues**: https://github.com/yourusername/SplashHR/issues
-- **Email**: support@splashhr.com
+- **GitHub Issues**: https://github.com/ahmedsaadawi13/SplashHR/issues
+- **Email**: ahmed.sha3ban13@gmail.com
 - **Documentation**: https://docs.splashhr.com
 
 ---
