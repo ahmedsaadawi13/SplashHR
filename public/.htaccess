@@ -1,0 +1,19 @@
+# SplashHR - Public Directory Rewrite Rules
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect to index.php if not a file or directory
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Prevent access to .env files
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
